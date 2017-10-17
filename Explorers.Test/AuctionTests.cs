@@ -19,7 +19,7 @@ namespace WowDotNetAPI.Explorers.Test
         [TestMethod]
         public void Get_Auction_Data()
         {
-            Auctions auctions = explorer.GetAuctions("skullcrusher");
+            Auctions auctions = explorer.GetAuctions("khazgoroth");
             Assert.IsTrue(auctions.CurrentAuctions.Count() > 0);
         }
     }
